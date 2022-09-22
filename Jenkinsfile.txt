@@ -5,15 +5,7 @@ pipeline {
 		
 		// ******ALL CODE TO BE ADDED BELOW THIS COMMENT******
 		
-	//Code ends for stage PMD
-		
-		
-		//Code starts for stage Compile
-		stage('Compile') {
-            steps {
-                sh 'mvn compile'
-            }
-        }
+	
 
 //Code starts for stage Unit Test
         stage('Unit Test') {
