@@ -17,9 +17,9 @@
 		
 		
 		//Code starts for stage PMD
-		stage('PMD') {
+		stage('PMD') {  (1)
             steps {
-                sh 'mvn site'
+                sh 'mvn site'  (2)
             }
         }
 		//Code ends for stage PMD
