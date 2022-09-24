@@ -19,6 +19,8 @@ pipeline {
             }
         }
 
+//sonnar
+
 stage ('Code Analysis'){    (1)
 steps{
 script {
